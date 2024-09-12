@@ -7,6 +7,9 @@ function (Controller) {
     return Controller.extend("ordemdevendas.project1.controller.View01", {
         onInit: function () {
 
+        },
+        onPress: function () {
+            alert("Test pressed");
         }
     });
 });
